@@ -1,13 +1,79 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es">
 <head>
-  <meta charset="utf-8">
-  <title>AppAngular</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metacritic Style Menu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <app-root></app-root>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo">metacritic</div>
+        <ul class="nav-links">
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Movies</a></li>
+            <li><a href="#">TV Shows</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">News</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Sección del título -->
+        <div class="header">
+            <h1>Your Friendly<br>Neighborhood Spider...</h1>
+        </div>
+
+        <!-- Tarjetas de puntajes -->
+        <div class="card">
+            <div class="score">
+              <img src="asset/img2.jpg">
+                <span class="metascore">78</span>
+                <span class="label">M E T A S C O R E</span>
+                <span class="rating">Generally Favorable</span>
+                <span class="reviews">Based on 9 Critic Reviews</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="score">
+                <span class="metascore">83</span>
+                <img src="asset/img2.jpg">
+
+                <span class="label">M E T A S C O R E</span>
+                <span class="rating">Universal Acclaim</span>
+                <span class="reviews">Based on 4 Critic Reviews</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="score">
+                <span class="metascore">58</span>
+                <span class="label">M E T A S C O R E</span>
+                <span class="rating">Mixed or Average</span>
+                <span class="reviews">Based on 8 Critic Reviews</span>
+            </div>
+        </div>
+
+        <!-- Invitación -->
+        <div class="invitation">
+            <h2>You're Cordially Invited</h2>
+            <p>movie</p>
+        </div>
+
+        <!-- Juego -->
+        <div class="game">
+            <h2>Eternal Strands</h2>
+            <p>game</p>
+            <div class="score">
+                <span class="metascore">67</span>
+                <span class="label">M E T A S C O R E</span>
+                <span class="rating">Mixed or Average</span>
+                <span class="reviews">Based on 18 Critic Reviews</span>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
